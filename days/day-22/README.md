@@ -4,17 +4,17 @@
 
 ## Summary
 
-Today we are working on a pong game from skretch, We will be tacking the creation of scoreboard, collisions and paddle movements 
+Today we are working on a pong game from skretch, We will be tacking the creation of scoreboard, collisions and paddle movements
 
 ## Repository Structure
 
-The main files and folders for Day 20 are:
+The main folders for Day 20 are:
+
 - `game/` - folder for the main pong game.
-- `paddle.py` - paddle class file
-- `scoreboard.py` - scoreboard class file
-- `ball.py` - ball class file
-- `main.py` - main game file.
 
 ## Key files
 
-- [README.md](../../README.md) — main project overview.
+- [main.py](./game/main.py) — challenge entry point.
+- [ball.py](./game/ball.py) — class for the moving abll
+- [paddle.py](./game/paddle.py) — paddle class (paddle blueprint)
+- [scoreboard.py](./game/scoreboard.py) — class that keeps the scoreboard

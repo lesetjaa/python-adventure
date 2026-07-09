@@ -9,14 +9,15 @@ Day 18 reintroduces the turtle module. We focus on manipulating the turle (shape
 
 ## Repository Structure
 
-The main files and folders for Day 18 are:
+The main folders for Day 18 are:
 
-- `challenges/` — smaller turtle practice scripts challenges.
-- `main.py` — basic lesson file demonstrating the turle module.
-- `NOTES.md` — Day 18 notes and definitions.
-- `hirst-painting/` - the day's objective
+- `./challenges/` — smaller turtle practice scripts challenges.
+- `./scripts/` — runnable scripts and code for that day.
+- `./hirst-painting/` - the day's objective
 
 ## Key files
 
-- [main.py](./main.py) — core lesson script for Day 18.
+- [main.py](./scripts/main.py) — core lesson script for Day 18.
 - [NOTES.md](./NOTES.md) — notes of the day.
+- [main.py](./hirst-painting/main.py) — challenge entry point.
+- [image.png](./hirst-painting/image.jpg) — sample image.

@@ -1,4 +1,4 @@
-## How to 
+## How to
 
 1. Run the main file [main.py](./scripts/main.py)
 

@@ -8,17 +8,13 @@ Today we are working on the second part of the snake Game. We will be tackling t
 
 ## Repository Structure
 
-The main files and folders for Day 20 are:
+The main folders for Day 20 are:
 
-- `snake-game/` - folder for the main snake game.
-- `snake.py` - snake class file
-- `scoreboard.py` - scoreboard class file
-- `food.py` - food class file
-- `NOTES.md` — Day 21 notes and definitions.
-- `main.py` - main game file.
+- `./snake-game/` - folder for the main snake game.
+- `./scripts/` — runnable scripts and code for that day.
 
 ## Key files
 
-- [README.md](../../README.md) — main project overview.
-- [main.py](./main.py) — core lesson script for Day 21.
+- [fish.py](./scripts/fish.py) - fish class that inherites from `animal class`
+- [animal.py](./scripts/animal.py)— animail `super class`
 - [NOTES.md](./NOTES.md) — notes worth noting on the day.

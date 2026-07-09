@@ -11,12 +11,12 @@ Debugging code
 ## Folder Structure
 
 The folder layout for the day:
+
 - `exercises/` — mini exercises for homework.
 - `scripts/` — runnable scripts and code for that day.
 
 ## Key files
 
-- [README.md](../../README.md) — main project overview.
 - [NOTES.md](./scripts/NOTES.md) — Notes for the day.
 
 ## Notes & Resources

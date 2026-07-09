@@ -9,16 +9,16 @@ Day 17
 
 ## Repository Structure
 
-The main files and folders for Day 16 are:
+The main folders for Day 16 are:
 
-- `quiz-game-start/` — starter code and the main quiz game.
-- `main.py` — basic lesson file demonstrating OOP concepts.
-- `NOTES.md` — Day 17 OOP notes and definitions.
+- `./quiz-game-start/` — starter code and the main quiz game.
+- `./scripts/` — runnable scripts and code for that day.
 
 ## Key files
 
-- [main.py](./main.py) — core lesson script for Day 17.
+- [main.py](./scripts/main.py) — core lesson script for Day 17.
 - [NOTES.md](./NOTES.md) — notes of the day.
+- [main.py](./quiz-game/main.py) — challenge entry point.
 
 ## Notes & Resources
 

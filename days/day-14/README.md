@@ -11,6 +11,7 @@ Making the [Higher Lower Game](https://www.higherlowergame.com/) in python. Cons
 ## Repository Structure
 
 The folder layout follows a hybrid approach:
+
 - `days/day-XX/README.md` — daily entry (notes, summary, snippets).
 - `days/day-XX/scripts/` — runnable scripts and code for that day.
 - `projects/` — larger, multi-file projects that span multiple days.
@@ -18,10 +19,9 @@ The folder layout follows a hybrid approach:
 
 ## Key files
 
-- [README.md](../../README.md) — main project overview.
 - [main.py](./scrpts/main.py) — main game file.
 - [NOTES.md](./scripts/NOTES.md) — Notes for how to play the game.
 
 ## Notes & Resources
 
-Online Game url: [https://www.higherlowergame.com/](https://www.higherlowergame.com/) 
+Online Game url: [https://www.higherlowergame.com/](https://www.higherlowergame.com/)
