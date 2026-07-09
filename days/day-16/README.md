@@ -20,7 +20,7 @@ The main files and folders for Day 16 are:
 ## Key files
 
 - [README.md](../../README.md) — main project overview.
-- [main.py](./main.py) — core lesson script for Day 16.
+- [main.py](./scripts/main.py) — core lesson script for Day 16.
 - [NOTES.md](./NOTES.md) — notes on classes, objects, and OOP usage.
 - `oop-coffee-machine-start/main.py` — starter challenge entry point.
 - `challenges/challenge_1.py` — mini OOP challenge.

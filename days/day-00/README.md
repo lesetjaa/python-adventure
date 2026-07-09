@@ -11,6 +11,7 @@ Initialized the repository structure for tracking daily progress on the 100 Days
 ## Repository Structure
 
 The folder layout follows a hybrid approach:
+
 - `days/day-XX/README.md` — daily entry (notes, summary, snippets).
 - `days/day-XX/scripts/` — runnable scripts and code for that day.
 - `projects/` — larger, multi-file projects that span multiple days.
@@ -26,6 +27,12 @@ The folder layout follows a hybrid approach:
 
 - This folder structure and documentation was generated with AI assistance to establish a clean, scalable format.
 - Adapted from best practices for project-based learning logs.
+
+## Command to initiate a day
+
+```sh
+cd days && mkdir day-<day-number> && cd day-<day-number> && touch NOTES.md README.md && mkdir scripts/ && cd scripts/ && touch main.py 
+```
 
 ## Follow-up / TODO
 

@@ -17,10 +17,6 @@ food = Food()
 scoreboard = Scoreboard()
 
 
-def print_to_console():
-    print("Hello")
-
-
 screen.listen()
 screen.onkey(key="Up", fun=snake.up)
 screen.onkey(key="Down", fun=snake.down)
