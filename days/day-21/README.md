@@ -15,6 +15,8 @@ The main folders for Day 21 are:
 
 ## Key files
 
-- [fish.py](./scripts/fish.py) - fish class that inherites from `animal class`
-- [animal.py](./scripts/animal.py)— animail `super class`
 - [NOTES.md](./NOTES.md) — notes worth noting on the day.
+- [main.py](./snake-game/main.py) — challenge entry point.
+- [snake.py](./snake-game/snake.py) — snake class.
+- [snake.py](./snake-game/food.py) — food class (randomly placed).
+- [snake.py](./snake-game/scoreboard.py) — scoreboard class (to keep current score).
