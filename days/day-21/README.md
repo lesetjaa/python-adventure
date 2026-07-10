@@ -8,7 +8,7 @@ Today we are working on the second part of the snake Game. We will be tackling t
 
 ## Repository Structure
 
-The main folders for Day 20 are:
+The main folders for Day 21 are:
 
 - `./snake-game/` - folder for the main snake game.
 - `./scripts/` — runnable scripts and code for that day.

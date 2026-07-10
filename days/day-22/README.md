@@ -8,13 +8,13 @@ Today we are working on a pong game from skretch, We will be tacking the creatio
 
 ## Repository Structure
 
-The main folders for Day 20 are:
+The main folders for Day 22 are:
 
 - `game/` - folder for the main pong game.
 
 ## Key files
 
 - [main.py](./game/main.py) — challenge entry point.
-- [ball.py](./game/ball.py) — class for the moving abll
+- [ball.py](./game/ball.py) — class for the moving ball
 - [paddle.py](./game/paddle.py) — paddle class (paddle blueprint)
 - [scoreboard.py](./game/scoreboard.py) — class that keeps the scoreboard
