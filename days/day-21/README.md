@@ -18,5 +18,5 @@ The main folders for Day 21 are:
 - [NOTES.md](./NOTES.md) — notes worth noting on the day.
 - [main.py](./snake-game/main.py) — challenge entry point.
 - [snake.py](./snake-game/snake.py) — snake class.
-- [snake.py](./snake-game/food.py) — food class (randomly placed).
-- [snake.py](./snake-game/scoreboard.py) — scoreboard class (to keep current score).
+- [food.py](./snake-game/food.py) — food class (randomly placed).
+- [scoreboard.py](./snake-game/scoreboard.py) — scoreboard class (to keep current score).
