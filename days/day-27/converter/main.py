@@ -13,7 +13,6 @@ input = Entry(width=10)
 input.grid(column=1, row=0)
 
 
-
 def convert():
     """Converts the input value"""
     number = 1.60934 * int(input.get())
