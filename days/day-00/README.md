@@ -31,5 +31,5 @@ The folder layout follows a hybrid approach:
 ## Command to initiate a day
 
 ```sh
-cd days && mkdir day-<day-number> && cd day-<day-number> && touch NOTES.md README.md && mkdir scripts/ && cd scripts/ && touch main.py && code ../
+cd days && mkdir day-<day-number> && cd day-<day-number> && touch NOTES.md README.md && mkdir scripts/ && cd scripts/ && touch main.py
 ```
