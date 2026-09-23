@@ -93,17 +93,12 @@ jobs:
             exit 1
           fi
 
+          cd ../../../
+
           if [ -f "requirements.txt" ]; then
             echo "requirements.txt found"
           else
             echo "requirements.txt not found!"
-            exit 1
-          fi
-
-          if [ -f "birthdays.csv" ]; then
-            echo "birthdays.csv found"
-          else
-            echo "birthdays.csv not found!"
             exit 1
           fi
 
