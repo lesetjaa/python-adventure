@@ -8,14 +8,14 @@
 
 ## Repository Structure
 
-The main folders for Day 34 are:
+The main folders for Day 41 are:
 
 - `/scripts/` — notes folder for the day
 
 ## Key files
 
 - [NOTES.md](./NOTES.md) — notes worth noting on the day.
-- [main.py](./scripts/main.py) — notes entry point.
+- [index.html](./project/index.thml) — today's project entry point.
 
 ## Resources
 
