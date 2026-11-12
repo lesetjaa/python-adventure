@@ -1,0 +1,15 @@
+h2 {
+    color: blue;
+}
+
+.red-text {
+    color: red;
+}
+
+p[draggable] {
+    color: orange;
+}
+
+p[draggable="false"] {
+    color: purple;
+}
