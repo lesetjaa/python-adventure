@@ -1,0 +1,25 @@
+/* FONT SIZE */
+
+html {
+    font-size: 3px;
+}
+
+footer {
+    font-size: 20px
+}
+
+h1 {
+    /* Because html has a 3px font-size and is the root of all elements including h2, setting h2 with 2rem will be equal to 3px * 2 = 6px */
+    font-size: 2rem;
+}
+
+h2 {
+    /* Because footer has a 20px font-size and is a the parent of h2, setting h2 with 2em will be equal to 20px * 2 = 40px */
+    font-size: 2em;
+}
+
+/* TEXT-ALIGN */
+
+h1 {
+    text-align: right;
+}
