@@ -6,18 +6,16 @@ import os
 
 load_dotenv()
 
-EMAIL = os.environ["EMAIL"]
-PASSWORD = os.environ["PASSWORD"]
-RECIEVER_EMAIL = os.environ["RECIEVER_EMAIL"]
-SMPT_ADDRESS = os.environ["SMPT_ADDRESS"]
-ACCEPT_LANGUAGE = os.environ["ACCEPT_LANGUAGE"]
+MY_EMAIL = os.environ["MY_EMAIL"]
+MY_PASSWORD = os.environ["MY_PASSWORD"]
+TO_EMAIL = os.environ["TO_EMAIL"]
 USER_AGENT = os.environ["USER_AGENT"]
 
 
 URL = "https://www.amazon.co.za/Sony-WH-1000XM6-Headphones-Microphones-Studio-Quality/dp/B0F3PQHWTZ/ref=cs_sr_dp_2?crid=31WW137SBCMHH&dib=eyJ2IjoiMSJ9.G6fW22-sksvlrv2CemSOkdCDvOilr-FWrpPy48cYA1xypln1SrmA0FP-A3xy0eKpW04609_Gfle0HmZ_0UYkKYvGFf5X4VAyx1ky4fk1PAPc2ci1SAXGsTvvJQO6dYa0jQVURqf4QHpGv6xgEBnuWyacK29gi2IojwV6dHhxtMFG0fOn5iWCq-tjnxoDFHcfhM8ei7VFvXdqk-1IOfXZsQwymNJhBOJGDu57UEnBXm3aD1uSemwkeuRb1n8uqna1mnyOi7bCBt3wNLZOUjSQsWU5tEapL1kFkkB3OYzpLXk.Fv__I9rxm4rZQkdrGg2SzZQaTp6atp_BZa3Mq2KI-rw&dib_tag=se&keywords=Sony%2BWH-1000XM6&qid=1795173744&sprefix=sony%2Bwh-1000xm6%2Caps%2C569&sr=8-3&th=1"
 headers = {
     "User-Agent": USER_AGENT,
-    "ACCEPT_LANGUAGE": ACCEPT_LANGUAGE
+    "Accept-Language": "en-US,en;q=0.9"
 }
 
 response = requests.get(url=URL, headers=headers)
@@ -48,16 +46,16 @@ message = f"Subject:AMAZON PRICE ALERT!!\n\n{item_title}\nis now at {item_curren
 
 
 def send_email(email, password, to_email):
-    with smtplib.SMTP(SMPT_ADDRESS, port=587) as connection:
+    with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
         connection.starttls()
         connection.login(user=email, password=password)
         connection.sendmail(
             msg=message,
-            from_addr=EMAIL,
+            from_addr=email,
             to_addrs=to_email
         )
         print("Email Sent!")
 
 
 if float(item_current_price.split("R")[1]) < float(4100):
-    send_email(EMAIL, PASSWORD, RECIEVER_EMAIL)
+    send_email(MY_EMAIL, MY_PASSWORD, TO_EMAIL)
