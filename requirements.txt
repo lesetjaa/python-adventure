@@ -3,3 +3,6 @@ pyperclip
 pandas
 beautifulsoup4
 ytmusicapi
+os
+dotenv
+smtplib
