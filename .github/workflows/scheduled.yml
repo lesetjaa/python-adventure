@@ -44,8 +44,9 @@ jobs:
           MY_EMAIL: ${{ secrets.MY_EMAIL }}
           MY_PASSWORD: ${{ secrets.MY_PASSWORD }}
           TO_EMAIL: ${{ secrets.TO_EMAIL }}
+          USER_AGENT: ${{ secrets.USER_AGENTS }}
           
           LAT: ${{ secrets.LAT }}
           LON: ${{ secrets.LON }}
           API_KEY: ${{ secrets.API_KEY }}
-        run: python days/day-35/scripts/main.py
+        run: python days/day-35/scripts/main.py && python days/day-47/project/main.py
