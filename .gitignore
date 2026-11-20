@@ -220,3 +220,4 @@ __marimo__/
 # Code editor configs
 .vscode/
 .DS_STORE
+browser.json

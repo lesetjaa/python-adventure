@@ -2,3 +2,4 @@ requests
 pyperclip
 pandas
 beautifulsoup4
+ytmusicapi
