@@ -221,3 +221,4 @@ __marimo__/
 .vscode/
 .DS_STORE
 browser.json
+chrome_profile
